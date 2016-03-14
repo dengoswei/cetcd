@@ -1,2 +1,2 @@
-# deadp
-c++ impl of etcd
+# deadpool
+A etcd copy cat with novel name..

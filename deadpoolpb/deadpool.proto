@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package deadp;
+package deadpool;
 
 
 message Request {
@@ -28,7 +28,7 @@ message Metadata {
     optional uint64 ClusterID  = 2;
 }
 
-service deadp {
+service deadpool {
     rpc PostMsg(paxos.Message) returns () {
     }
 
